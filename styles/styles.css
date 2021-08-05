@@ -6,25 +6,46 @@ body {
     font-size: 13px;
     color: white;
     display: inline-block;
-    padding-left: 15px;
+    padding-left: 17px;
+    cursor: pointer;
 }
 .topbar {
     display: inline-block;
     float: right;
     margin-top: 10px;
+    padding-left: 30px;
+    height: 100px;
 }
-.topmain {
+.logo-div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 56vh;
+    min-height: 300px;
+    margin-top: 10px;
+    margin-right: 50%;
+    margin-left: 50%;
 }
 
 .logo {
-  }
+   padding-top: 103px;
+   margin-bottom: 26px;
+ }
 
 .app-logo{
     filter: contrast(0%) brightness(150%);
-    padding-left: 15px;
+    padding-left: 16px;
     vertical-align: middle;
+    cursor: pointer;
 
 }
+.search-logo{
+    filter: contrast(28%) brightness(150%);
+    padding-top: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
 .topbar-button {
     background-color: #8ab4f8;
     border: 1px solid transparent;
@@ -32,9 +53,61 @@ body {
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     font-weight: 500px;
     font-size: 14px;
+    letter-spacing: 0.25px;
     line-height: 16px;
     padding: 9px 23px;
     vertical-align: middle;
+    margin-right: 8px;
     border-radius: 4px;
-    margin-right: 8px
+    margin-left: 13px;
+    cursor: pointer;
+}
+.search-div {
+  justify-content: space-between;
+  border: 1px solid rgba(189, 193, 198, 0.5);
+  border-radius: 30px;
+  padding-bottom: 10px;
+  width: 570px;
+  height: 40px;
+}
+.microphone-logo{
+    filter: contrast(28%) brightness(150%);
+    padding-right: 12px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.input-bar{
+    width: 410px;
+    height: 40px;
+    background-color: transparent;
+    border-color: transparent; 
+    outline: none;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+.input-bar:hover,
+.input-bar:focus-within{
+    border-color: transparent;
+    
+}
+button{
+    appearance: auto;
+    white-space: pre;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: #303134; 
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eae8;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
